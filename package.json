@@ -1,0 +1,17 @@
+{
+  "name": "pharmacy-erp",
+  "version": "1.0.0",
+  "description": "Production-ready Pharmacy ERP System",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3"
+  }
+}
